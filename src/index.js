@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'tachyons'
+import Card from "./components/Card";
 
 ReactDOM.render(
   <React.StrictMode>
-    <h1>Hello World !</h1>
+    <Card/>
   </React.StrictMode>,
   document.getElementById('root')
 );
